@@ -5,7 +5,7 @@
 
 
 const valorDoProduto = 100;
-const numeroDeParcelas = 1;
+const numeroDeParcelas = 3;
 
 if (numeroDeParcelas === 1) {
 
@@ -17,6 +17,6 @@ if (numeroDeParcelas === 1) {
 } else {
 
     const parcelas = valorDoProduto / numeroDeParcelas;
-    console.log(`A quantidade de parcelas a ser paga é de ${numeroDeParcelas} no valor de R$${parcelas}`);
+    console.log(`A quantidade de parcelas a ser paga é de ${numeroDeParcelas} no valor de R$${parcelas.toFixed(2)}`);
 
 }
